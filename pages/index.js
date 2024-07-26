@@ -1,9 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import { Suspense } from "react";
 import { Metrika } from "../components/metrika";
-
 import {
   Services, Contents, Media_Coverage, Hero, Navbar, Footer, ChatwootWidget, 
 } from '../components';
@@ -26,9 +24,7 @@ export default () => (
 <meta name="twitter:description" content="ReyzHub is a global network accelerating Tech and Medicine research and business" />
 <meta name="twitter:image" content="./assets/illustration-2.svg" />
     </Head>   
-             <Suspense>
           <Metrika />
-        </Suspense>
     <Navbar />
     <Hero />
     <Services />
