@@ -1,32 +1,35 @@
-"use client";
-
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import Script from "next/script";
-
 export function Metrika() {
-const router = useRouter();
+  const router = useRouter();
   const { pathname, asPath } = router;
-  useEffect(() => {
-    ym(97927750, "hit", window.location.href);
-  }, [pathname, asPath]);
-  return (
-    <Script id="yandex-metrika">
-      {`
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+  useEffect(() => {
+    // Check if the Yandex Metrika script is already loaded
+    if (!window.ym) {
+      // Create the script element
+      const script = document.createElement('script');
+      script.src = "https://mc.yandex.ru/metrika/tag.js";
+      script.async = true;
+      script.onload = () => {
+        // Initialize Yandex Metrika once the script is loaded
         ym(97927750, "init", {
           defer: true,
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true
-        });    
-      `}
-    </Script>
-  );
+          clickmap: true,
+          trackLinks: true,
+          accurateTrackBounce: true
+        });
+        // Track the page view
+        ym(97927750, "hit", window.location.href);
+      };
+      // Append the script to the document head
+      document.head.appendChild(script);
+    } else {
+      // If the script is already loaded, just track the page view
+      ym(97927750, "hit", window.location.href);
+    }
+  }, [pathname, asPath]);
+
+  return null; // This component doesn't need to render anything
 }
