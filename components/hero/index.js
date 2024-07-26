@@ -23,7 +23,5 @@ export default () => (
         alt="illustration"
       />
     </div>
-   <div><img src="https://mc.yandex.ru/watch/97927750" style="position:absolute; left:-9999px;" alt="" /></div>
-
   </section>
 );
