@@ -23,6 +23,7 @@ export default () => (
 <meta name="twitter:description" content="ReyzHub is a global network accelerating Tech and Medicine research and business" />
 <meta name="twitter:image" content="./assets/illustration-2.svg" />
     </Head>   
+            <div><img src="https://mc.yandex.ru/watch/97927750" style="position:absolute; left:-9999px;" alt="" /></div>
     <Navbar />
     <Hero />
     <Services />
