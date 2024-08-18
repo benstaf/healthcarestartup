@@ -8,7 +8,7 @@ export default () => (
 <p> <b> Our Offices </b> </p>
 
 <p>
-3000 Sand Hill Road, Menlo Park, CA 94025, United States
+1300 El Camino Real, Menlo Park, CA 94025, USA
       </p>
   
       <p>
