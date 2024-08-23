@@ -11,7 +11,7 @@ export default () => (
 <a href="/sign_up"  target="_blank" >
 
       <button type="button" className="btn btn-rounded-big">
-        Sign Up
+        Apply 
       </button>
 </a>
 
