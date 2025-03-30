@@ -9,7 +9,7 @@ import {
 export default () => (
   <div>
     <Head>
-      <title>ChingHub - Tech and Medicine Network</title>
+      <title>ReyzHub - Tech and Medicine Network</title>
 <meta name="image" property="og:image" content="./assets/illustration-2.svg"/>
     <meta
           property="og:description"
