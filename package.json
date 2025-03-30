@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.6",
+    "next": "13.5.0",
     "next-images": "^1.4.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
