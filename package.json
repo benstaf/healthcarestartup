@@ -6,7 +6,8 @@
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npx @cloudflare/next-on-pages"
+//    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
