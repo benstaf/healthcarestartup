@@ -28,7 +28,7 @@ export default () => (
       <div style={{ textAlign: 'center' }}>
   <iframe 
   src="https://app.youform.com/forms/hkvzms2g" 
-   width="100%"
+   width="100%" loading="lazy"
         style={{ height: '559px' }}
        
   
