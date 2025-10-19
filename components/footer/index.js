@@ -46,7 +46,7 @@ King Abdullah Road, Al Wurud, Riyadh 32421, KSA
 
        
         <li>
-      ©ReyzHub 2024. All rights reserved
+      ©ReyzHub 2025. All rights reserved
         </li>
 
 
