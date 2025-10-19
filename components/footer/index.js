@@ -8,7 +8,7 @@ export default () => (
 <p> <b> Our Offices </b> </p>
 
 <p>
-1300 El Camino Real, Menlo Park, CA 94025, USA
+450 Townsend Street, San Francisco, CA 94107, USA
       </p>
   
       <p>
