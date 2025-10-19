@@ -10,11 +10,11 @@ export default () => (
 <p>
 450 Townsend Street, San Francisco, CA 94107, USA
       </p>
-  
+  <!--
       <p>
 King Abdullah Road, Al Wurud, Riyadh 32421, KSA
       </p>
- 
+ -->
 <p>
 5 Parv. Alan Turing, 75013 Paris, France
       </p>
@@ -28,13 +28,15 @@ King Abdullah Road, Al Wurud, Riyadh 32421, KSA
      
 
  <ul>
-        <p>Contact Us</p>
+        <p>Contact</p>
         <li>
           Mostapha Benhenda <a  href="https://linkedin.com/in/mostapha-benhenda/" target="_blank">(LinkedIn)</a>
         </li>
+   <!--
        <li>
           Abdul Rahman Alolayan <a href="https://linkedin.com/in/alolayana"  target="_blank">(LinkedIn)</a>
         </li>
+-->
      <li>
           <a  href="https://calendly.com/mostaph/10min" target="_blank">🗓️ Schedule a 10-minute video call</a>
         </li>
