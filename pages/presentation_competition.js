@@ -10,24 +10,24 @@ import {
 export default () => (
   <div>
     <Head>
-      <title>ChingHub - Tech and Medicine Network</title>
+      <title>ReyzHub - Tech and Medicine Network</title>
 <meta name="image" property="og:image" content="./assets/illustration-2.svg"/>
     <meta
           property="og:description"
-          content="ChingHub is a global network accelerating research and business in Tech and Medicine"
+          content="ReyzHub is a global network accelerating research and business in Tech and Medicine"
         />
         <meta property="og:image" content="./assets/illustration-2.svg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@CoderRocketFuel" />
 <meta name="twitter:title" content="Embed a Twitch Video into a React Website" />
-<meta name="twitter:description" content="ChingHub is a global network accelerating Tech and Medicine research and business" />
+<meta name="twitter:description" content="ReyzHub is a global network accelerating Tech and Medicine research and business" />
 <meta name="twitter:image" content="./assets/illustration-2.svg" />
     </Head>
     <Navbar />
   
       <div style={{ textAlign: 'center' }}>
   <iframe 
-  src="https://docs.google.com/presentation/d/e/2PACX-1vQdi6kQiCZnAZY-U_sACVq2yH_VBqo6yoHF5CDKaa67EG9w9dK8zqlenWP3kYT57pMkacj5iBCs4WdQ/embed?start=false&loop=false&delayms=3000" 
+  src="https://docs.google.com/presentation/d/19ACyxxONl1Ukgr58vW3Yhz0F8u_dGWjQDlQFuWYr0Ug/edit?usp=drivesdkse&loop=false&delayms=3000" 
    width="100%"
         style={{ height: '559px' }}
        
