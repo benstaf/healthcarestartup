@@ -25,15 +25,19 @@ export default () => (
     </Head>
     <Navbar />
   
-      <div style={{ textAlign: 'center' }}>
-  <iframe 
-  src="https://docs.google.com/presentation/d/e/19ACyxxONl1Ukgr58vW3Yhz0F8u_dGWjQDlQFuWYr0Ug/embed?start=false&loop=false&delayms=3000" 
-   width="100%"
-        style={{ height: '559px' }}
-       
-  
-  allow="autoplay"
-  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <div style={{ textAlign: 'center', position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+  <iframe
+    src="https://docs.google.com/presentation/d/e/2PACX-1vTQkTJtxcYirpgr5PBbwYzeBMFPgG2OP61O2fkWCOVB-f6_Iw4pEgbwcFBg6FfnagVilMMfX83uHuqg/pubembed?start=false&loop=false&delayms=3000"
+    frameborder="0"
+    width="100%"
+    height="100%"
+    allowfullscreen="true"
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true"
+    style={{ position: 'absolute', top: 0, left: 0 }}
+  >
+    Loading…
+  </iframe>
 </div>
 
      <ChatwootWidget />
