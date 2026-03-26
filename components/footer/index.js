@@ -11,7 +11,7 @@ export default () => (
 450 Townsend Street, San Francisco, CA 94107, USA
       </p>
 <p>
-8/F, China Hong Kong Tower, Hennessy Road, Wan Chai.
+8/F, China Hong Kong Tower, Hennessy Road, Wan Chai, Homg Kong SAR
 </p>
 
 
