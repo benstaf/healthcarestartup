@@ -10,6 +10,11 @@ export default () => (
 <p>
 450 Townsend Street, San Francisco, CA 94107, USA
       </p>
+<p>
+8/F, China Hong Kong Tower, Hennessy Road, Wan Chai.
+</p>
+
+
   {/*
       <p>
 King Abdullah Road, Al Wurud, Riyadh 32421, KSA
