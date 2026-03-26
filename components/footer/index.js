@@ -6,25 +6,27 @@ export default () => (
     <div className="logo-container">
 
 <p> <b> Our Offices </b> </p>
-
+  
+<p>
+8/F, China Hong Kong Tower, Hennessy Road, Wan Chai, Hong Kong SAR
+</p>
+  
 <p>
 450 Townsend Street, San Francisco, CA 94107, USA
       </p>
-<p>
-8/F, China Hong Kong Tower, Hennessy Road, Wan Chai, Homg Kong SAR
-</p>
+
 
 
   {/*
       <p>
 King Abdullah Road, Al Wurud, Riyadh 32421, KSA
       </p>
- */}
+ 
 <p>
 5 Parv. Alan Turing, 75013 Paris, France
       </p>
 
-
+*/}
 
 
     </div>
